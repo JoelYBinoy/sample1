@@ -1,0 +1,24 @@
+Initial Setup
+=============
+git config --global user.name "Git username"
+git config --global yser.email "Email id"
+
+Commands for pushing the code initially
+=======================================
+// to initialise particular folder as git repository
+1) git init
+
+// add origin
+2)git remote add origin github_repo_url
+
+// to list the files that need to be pushed (red in color)
+3) git status
+
+// to copy file from local storage to staging area 
+4) git add .
+
+//to copy file from staging area to local repo
+5) git commit -m 'Type a message here'
+
+// to push the code from local repo to the github
+6) git push origin master
